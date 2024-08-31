@@ -49,14 +49,14 @@ body{
 }
 
 .btn{
-    margin-right: 350px;
+    margin-right: 300px;
     border-radius: 4px;
     background: rgb(229, 84, 115);
     border: none;
     color: white;
     margin-top: 10px;
     padding: 20px 30px; 
-    width: 100px;
+    width: 200px;
 }
 
 .featured-image-container{
@@ -228,4 +228,27 @@ line-height: 1.88rem;
     margin-left: 10px;
     width: 100px;
     width: 30%;
+}
+
+
+footer{
+    background-color: black;
+    margin-top: 60px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-desc{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.styleing{
+    text-align: center;
+    padding: 20px;
 }
