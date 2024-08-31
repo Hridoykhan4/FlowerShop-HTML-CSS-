@@ -186,3 +186,46 @@ line-height: 1.88rem;
     gap: 20px;
     margin-top: 50px;
 }
+
+
+.super-deals-container{
+    width: 90%;
+    height: 449px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/Rectangle 9.png');
+    background-position: center;
+    border: 1px solid red;
+}
+
+
+.deals-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.deal-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals-content input{
+    width: 100%;
+    height: 64px;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0,0,0);
+}
+
+.subs{
+    background-color: rgb(299, 84, 115);
+    height: 34px;
+    margin-left: 10px;
+    width: 100px;
+    width: 30%;
+}
